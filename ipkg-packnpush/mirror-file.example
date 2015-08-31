@@ -1,0 +1,6 @@
+## Place ip or hostnames for the mirrors to sync to from main repo
+192.168.2.22 #gwn1
+192.168.2.6 #gwn2
+192.168.2.18 #gws1
+192.168.2.10 #gws2
+utilite1.dynhost.nicta.com.au #testbed

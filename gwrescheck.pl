@@ -1,10 +1,13 @@
 #!/usr/bin/perl
 ##This script is used to calculate the default route
-##and populate host files with the correct ip address
-##of the gateway. This is particularly useful when
-##one interface is configured for multiple possible
-##vlans.
+##and populate /etc/hosts  and /etc/resolv.conf with the correct 
+#ip address of the gateway. This is particularly useful when one 
+##interface is configured for multiple possible vlans.
+##
 ##Set as a post-up in /etc/network/interfaces
+##
+##Tested on Angstrom Linux
+##Christopher Ward - 2015
 
 use Net::Ping;
 my $defgate;
